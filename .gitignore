@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+google_scraping/__pycache__
+google_scraping/data.zip
+google_scraping/data
+google_scraping/gm-scraper.log

@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--place', dest='place', action='store_true', help='Scrape place metadata')
     parser.add_argument('--debug', dest='debug', action='store_true', help='Run scraper using browser graphical interface')
     parser.add_argument('--source', dest='source', action='store_true', help='Add source url to CSV file (for multiple urls in a single file)')
-    parser.set_defaults(place=False, debug=False, source=True)
+    parser.set_defaults(place=False, debug=True, source=True)
 
     args = parser.parse_args()
 

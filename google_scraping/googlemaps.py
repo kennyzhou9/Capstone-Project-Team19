@@ -67,7 +67,7 @@ class GoogleMapsScraper:
         recent_rating_bt.click()
 
         # wait to load review (ajax call)
-        time.sleep(15)
+        time.sleep(25)
 
         return 0
 
@@ -77,7 +77,7 @@ class GoogleMapsScraper:
         # scroll to load reviews
 
         # wait for other reviews to load (ajax)
-        time.sleep(14)
+        time.sleep(24)
 
         self.__scroll()
 
@@ -102,7 +102,7 @@ class GoogleMapsScraper:
         self.driver.get(url)
 
         # ajax call also for this section
-        time.sleep(14)
+        time.sleep(24)
 
         resp = BeautifulSoup(self.driver.page_source, 'html.parser')
 
@@ -113,7 +113,7 @@ class GoogleMapsScraper:
     def get_address(self,url):
         self.driver.get(url)
 
-        time.sleep(16)
+        time.sleep(26)
 
         resp = BeautifulSoup(self.driver.page_source, 'html.parser')
 
@@ -210,7 +210,7 @@ class GoogleMapsScraper:
         links = self.driver.find_elements_by_xpath('//button[@class=\'section-expand-review blue-link\']')
         for l in links:
             l.click()
-        time.sleep(12)
+        time.sleep(22)
 
     # load more reviews
     def more_reviews(self):
@@ -222,11 +222,11 @@ class GoogleMapsScraper:
         print('LINKS HERE', links)
         for l in links:
             l.click()
-        time.sleep(12)
+        time.sleep(22)
 
 
     def __scroll(self):
-        scrollable_div = self.driver.find_element_by_css_selector('div.section-layout.section-scrollbox.scrollable-y.scrollable-show')
+        scrollable_div = self.driver.find_element_by_css_selector('div.widget-pane-content.mapsConsumerUiCommonScrollable__scrollable-y')
         self.driver.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', scrollable_div)
         #self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
