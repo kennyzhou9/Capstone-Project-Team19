@@ -11,7 +11,7 @@ ind = {'most_relevant' : 0 , 'newest' : 1, 'highest_rating' : 2, 'lowest_rating'
 HEADER = ['id_review', 'caption', 'relative_date', 'retrieval_date', 'rating', 'username', 'n_review_user', 'n_photo_user', 'url_user','address']
 HEADER_W_SOURCE = ['id_review', 'caption', 'relative_date','retrieval_date', 'rating', 'username', 'n_review_user', 'n_photo_user', 'url_user', 'url_source','address']
 
-def csv_writer(source_field, ind_sort_by, path='data/'):
+def csv_writer(source_field, ind_sort_by, path='data_costco/'):
     outfile= ind_sort_by + '_gm_reviews.csv'
     targetfile = open(path + outfile, mode='w', encoding='utf-8', newline='\n')
     writer = csv.writer(targetfile, quoting=csv.QUOTE_MINIMAL)
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--place', dest='place', action='store_true', help='Scrape place metadata')
     parser.add_argument('--debug', dest='debug', action='store_true', help='Run scraper using browser graphical interface')
     parser.add_argument('--source', dest='source', action='store_true', help='Add source url to CSV file (for multiple urls in a single file)')
-    parser.set_defaults(place=False, debug=True, source=True)
+    parser.set_defaults(place=False, debug=False, source=True)
 
     args = parser.parse_args()
 
