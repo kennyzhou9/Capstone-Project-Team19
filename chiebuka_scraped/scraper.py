@@ -47,6 +47,7 @@ if __name__ == '__main__':
             for url in urls_file:
                 writer = csv_writer(args.source, f"{args.i}")
                 address = scraper.get_address(url)
+                
                 if args.place:
                     print(scraper.get_account(url))
                 else:
