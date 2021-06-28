@@ -260,7 +260,7 @@ class GoogleMapsScraper:
 
         options.add_argument("--disable-notifications")
         options.add_argument("--lang=en-GB")
-        input_driver = webdriver.Chrome("C:/Users/Tiam Moradi/Downloads/chromedriver_win32/chromedriver",chrome_options=options)
+        input_driver = webdriver.Chrome("C:/Users/Tiam Moradi/Downloads/chromedriver_win32_/chromedriver",chrome_options=options)
 
         return input_driver
 
