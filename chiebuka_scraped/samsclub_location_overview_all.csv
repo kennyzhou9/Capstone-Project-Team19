@@ -1,0 +1,95 @@
+,average rating,reviews count,location,location_code
+0,4.3,578,"7 Walmart Blvd, Hudson, NH 03051",1
+1,4.2,609,"579 Troy Schenectady Rd, Latham, NY 12110",2
+2,4.4,1548,"300 Park Plaza Dr, Secaucus, NJ 07094",3
+3,4.5,1037,"4790 Portage St NW, Canton, OH 44720",4
+4,4.3,813,"2950 Horseblock Road, Medford, NY 11763",5
+5,4.4,801,"2521 Route 130 S, Cinnaminson, NJ 08077",6
+6,4.4,740,"2000 Clements Bridge Rd, Deptford, NJ 08096",7
+7,4.3,692,"2801 E Market St, York, PA 17402",8
+8,4.4,721,"3465 Berlin Turnpike, Newington, CT 06111",9
+9,4.4,958,"901 Airport Center Rd, Allentown, PA 18109",10
+10,4.5,955,"1000 Franklin Mills Cir, Philadelphia, PA 19154",11
+11,4.5,589,"6520 Carlisle Pike, Mechanicsburg, PA 17050",12
+12,4.3,1266,"883 US-1, Edison, NJ 08817",13
+13,4.3,644,"320 W Main St, Freehold, NJ 07728",14
+14,4.2,458,"440 Payne Rd, Scarborough, ME 04074",15
+15,4.2,986,"4295 45th St, West Palm Beach, FL 33407",16
+16,4,629,"45425 Dulles Crossing Plaza, Sterling, VA 20166",17
+17,4.2,664,"3735 Union Rd, Cheektowaga, NY 14225",18
+18,4.4,1014,"3345 Virginia Beach Blvd, Virginia Beach, VA 23452",19
+19,4.1,1038,"6410 Petrie Way Rd, Baltimore, MD 21237",20
+20,4.2,664,"14050 Worth Ave, Woodbridge, VA 22192",21
+21,4.4,545,"21341 Sams Dr, Watertown, NY 13601",22
+22,4.4,1557,"8425 NW 13th Terrace, Doral, FL 33126",23
+23,4.3,883,"1717 E Old Lincoln Hwy, Langhorne, PA 19047",24
+24,4.3,481,"56 W Merritt Blvd, Fishkill, NY 12524",25
+25,4.2,1261,"1900 S University Dr, Miramar, FL 33025",26
+26,4.4,832,"5314 Allentown Pike, Temple, PA 19560",27
+27,4.2,861,"424 George Clauss Blvd, Severn, MD 21144",28
+28,4.3,900,"3535 Russett Green E, Laurel, MD 20724",29
+29,4.2,679,"15 Texas Station Ct, Lutherville-Timonium, MD 21093",30
+30,4.4,439,"304 Sheep Davis Rd, Concord, NH 03301",31
+31,4.4,695,"2444 Chesapeake Square Ring Rd, Chesapeake, VA 23321",32
+32,4.4,791,"2365 Crain Hwy, Waldorf, MD 20601",33
+33,4.4,642,"1025 E Black Horse Pike, Pleasantville, NJ 08232",34
+34,4.2,1032,"333 Saw Mill River Rd, Elmsford, NY 10523",35
+35,4.2,932,"3925 Welsh Rd, Willow Grove, PA 19090",36
+36,4.4,799,"5600 Emerald Ct, Mentor, OH 44060",37
+37,4.4,737,"1189 Buchholzer Blvd, Cuyahoga Falls, OH 44221",38
+38,4.4,933,"950 N University Dr, Coral Springs, FL 33071",39
+39,4.4,801,"10900 S, US-1, Port St. Lucie, FL 34952",40
+40,4.3,1304,"10690 Beach Blvd, Jacksonville, FL 32246",41
+41,4.2,818,"2537 S Saunders St, Raleigh, NC 27603",42
+42,4.2,817,"11425 Carolina Pl Pkwy, Pineville, NC 28134",43
+43,4.4,869,"5225 Cobblestone Rd, Sheffield, OH 44035",44
+44,4.4,488,"646 River Hwy, Mooresville, NC 28117",45
+45,4.3,760,"450 Townsend Rd, Cocoa, FL 32926",46
+46,4.3,842,"23300 Broadway Ave, Oakwood, OH 44146",47
+47,4.2,937,"4005 Durham-Chapel Hill Blvd, Durham, NC 27707",48
+48,4.2,1381,"10250 Brookpark Rd, Cleveland, OH 44130",49
+49,4.3,1355,"6373 Youngerman Cir, Jacksonville, FL 32244",50
+50,4.4,906,"4255 W New Haven Ave, Melbourne, FL 32904",51
+51,4.4,699,"300 N Cattlemen Rd, Sarasota, FL 34232",52
+52,4.4,1365,"9498 S Orange Blossom Trl, Orlando, FL 32837",53
+53,4.5,630,"261 Wilson Ave, Hanover, PA 17331",54
+54,4.3,696,"2100 Generals Hwy, Annapolis, MD 21401",55
+55,4.4,1128,"1101 Rinehart Rd, Sanford, FL 32771",56
+56,4.3,1017,"8909 JW Clay Blvd, Charlotte, NC 28262",57
+57,4.3,1444,"7701 E Colonial Dr, Orlando, FL 32807",58
+58,4.3,900,"9440 W Broad St, Richmond, VA 23294",59
+59,4.3,750,"3383 Buford Dr, Buford, GA 30519",60
+60,4.5,765,"9464 Main St, Woodstock, GA 30188",61
+61,4.3,897,"310 Fischer Rd, Sharpsburg, GA 30277",62
+62,4.2,665,"300 N Galleria Dr, Middletown, NY 10941",63
+63,4.2,1062,"1520 Scenic Hwy N, Snellville, GA 30078",64
+64,4.2,1797,"7325 Jonesboro Rd, Morrow, GA 30260",65
+65,4.4,1525,"4763 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",66
+66,4.4,590,"2080 N Black Horse Pike, Williamstown, NJ 08094",67
+67,4.5,876,"301 SW Pine Island Rd, Cape Coral, FL 33991",68
+68,4.2,665,"3001 Calvary Dr, Raleigh, NC 27604",69
+69,4.5,800,"1572 N Dupont Hwy, Dover, DE 19901",70
+70,4.2,1010,"1501 Sam's Cir, Chesapeake, VA 23320",71
+71,4.2,1141,"27727 State Rd 56, Wesley Chapel, FL 33544",72
+72,4.2,1004,"12407 Jefferson Ave, Newport News, VA 23602",73
+73,4.3,1265,"15835 N Dale Mabry Hwy, Tampa, FL 33618",74
+74,4.2,891,"5170 S Cleveland Ave, Fort Myers, FL 33907",75
+75,4.3,648,"2700 N Salisbury Blvd, Salisbury, MD 21801",76
+76,4.3,1173,"7810 W Colonial Dr, Orlando, FL 32818",77
+77,4.3,1201,"1450 Skibo Rd, Fayetteville, NC 28303",78
+78,4.3,886,"1455 Towne Square Blvd NW, Roanoke, VA 24012",79
+79,4.3,1301,"2575 Gulf to Bay Blvd, Clearwater, FL 33765",80
+80,4.4,483,"7 Consumer Square, Plattsburgh, NY 12901",81
+81,4.3,634,"2441 Vestal Pkwy E, Vestal, NY 13850",82
+82,4.3,687,"45 Marketplace Dr, Augusta, ME 04330",83
+83,4.5,524,"830 County Rd 64, Elmira, NY 14903",84
+84,4.4,677,"3796 Nazareth Rd, Easton, PA 18045",85
+85,4.3,1365,"4418 W Wendover Ave, Greensboro, NC 27407",86
+86,4.2,1513,"1460 Cornerstone Blvd, Daytona Beach, FL 32117",87
+87,4.4,798,"1700 Wesel Blvd, Hagerstown, MD 21740",88
+88,4.4,524,"47 Haskell Rd, Bangor, ME 04401",89
+89,4.3,1121,"4900 Centre Pointe Dr, North Charleston, SC 29418",90
+90,4.2,1325,"1250 Airport Blvd, Pensacola, FL 32504",91
+91,4,1276,"31020 John R Rd, Madison Heights, MI 48071",92
+92,4.3,1494,"15700 Northline Rd, Southgate, MI 48195",93
+93,4.4,1493,"31720 Gratiot Ave, Roseville, MI 48066",94
