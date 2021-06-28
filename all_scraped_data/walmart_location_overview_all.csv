@@ -1,0 +1,181 @@
+,average rating,reviews count,location,location_code
+91,4.1,5112,"770 Broadway, Saugus, MA 01906",1
+92,4.0,3671,"141 Washington Ave Ext, Albany, NY 12205",2
+93,4.1,7710,"174 Passaic St, Garfield, NJ 07026",3
+94,3.7,4375,"4004 Tuscarawas St W, Canton, OH 44708",4
+95,4.0,3886,"315 Foxon Blvd, New Haven, CT 06513",5
+96,4.1,2785,"934 NJ-73, Mt Laurel Township, NJ 08054",6
+97,3.9,4280,"1000 E Pulaski Hwy, Elkton, MD 21921",7
+98,4.1,3743,"326 N Broadway, Salem, NH 03079",8
+99,4.2,2773,"30 Memorial Dr, Avon, MA 02322",9
+100,3.8,4639,"591 Memorial Dr, Chicopee, MA 01020",10
+101,3.7,7125,"2601 MacArthur Rd, Whitehall, PA 18052",11
+102,3.9,5056,"4301 Byberry Rd, Philadelphia, PA 19154",12
+103,4.0,2919,"506 State Rd, North Dartmouth, MA 02747",13
+104,3.7,2576,"3400 Hartzdale Dr, Camp Hill, PA 17011",14
+105,4.1,4538,"290 NJ-18, East Brunswick, NJ 08816",15
+106,3.8,3807,"3575 NJ-66, Neptune City, NJ 07753",16
+107,3.9,3433,"500 Gallery Blvd, Scarborough, ME 04074",17
+108,3.9,3639,"9990 Belvedere Rd, West Palm Beach, FL 33411",18
+109,4.1,2679,"13059 Fair Lakes Pkwy, Fairfax, VA 22033",19
+110,3.8,3970,"5360 Southwestern Blvd, Hamburg, NY 14075",20
+111,4.1,3236,"657 Phoenix Dr, Virginia Beach, VA 23452",21
+112,4.1,3276,"1100 New Haven Rd, Naugatuck, CT 06770",22
+113,3.9,2359,"742 Main St, North Oxford, MA 01537",23
+114,3.9,3019,"85 NH-101A, Amherst, NH 03031",24
+115,3.8,4615,"8118 Perry Hills Rd, Nottingham, MD 21236",25
+116,3.9,4957,"14000 Worth Ave, Woodbridge, VA 22192",26
+117,4.3,12831,"400 Park Plaza Dr, Secaucus, NJ 07094",27
+118,3.7,4562,"6438 Basile Rowe, East Syracuse, NY 13057",28
+119,3.7,3621,"6303 Richmond Hwy, Alexandria, VA 22306",29
+120,4.0,2073,"280 Washington St, Hudson, MA 01749",30
+121,4.0,1502,"1885 NJ-57 Ste 100, Hackettstown, NJ 07840",31
+122,3.9,15508,"77 Green Acres Rd S, Valley Stream, NY 11581",32
+123,4.3,6144,"8400 Coral Way, Miami, FL 33155",33
+124,3.7,4380,"180 Levittown Center, Levittown, PA 19055",34
+125,3.9,5001,"26 W Merritt Blvd, Fishkill, NY 12524",35
+126,4.2,4242,"12800 Pines Blvd, Pembroke Pines, FL 33027",36
+127,3.9,4379,,37
+128,3.7,4393,"400 S State Rd, Springfield, PA 19064",38
+129,3.7,4393,"400 S State Rd, Springfield, PA 19064",39
+130,3.8,3953,"5370 Allentown Pike, Temple, PA 19560",40
+131,4.0,2525,"11 Jungle Rd, Leominster, MA 01453",41
+132,3.7,3446,"8107 Governor Ritchie Hwy, Pasadena, MD 21122",42
+133,4.0,6084,"3549 Russett Green E, Laurel, MD 20724",43
+134,3.7,3945,"8730 Liberty Rd, Randallstown, MD 21133",44
+135,3.9,1391,"2460 Lafayette Rd, Portsmouth, NH 03801",45
+136,3.5,3377,"1000 Town Center Dr, York, PA 17408",46
+137,3.8,2745,"16 Old Gick Rd, Saratoga Springs, NY 12866",47
+138,4.1,7603,"1050 W Edgar Rd, Linden, NJ 07036",48
+139,3.9,2465,"8770 Dell Center Dr, Liverpool, NY 13090",49
+140,4.0,2862,"1800 Carl D. Silver Pkwy, Fredericksburg, VA 22401",50
+141,3.8,3130,"2448 Chesapeake Square Ring Rd, Chesapeake, VA 23321",51
+142,3.8,2549,"303 Fallston Blvd, Fallston, MD 21047",52
+143,4.0,3648,"4620 E Black Horse Pike, Mays Landing, NJ 08330",53
+144,4.0,2242,"1990 Brandt Point Dr, Webster, NY 14580",54
+145,4.1,3382,"288 Larkin Dr, Monroe, NY 10950",55
+146,4.1,9763,"1 Teterboro Landing Dr, Teterboro, NJ 07608",56
+147,3.9,4641,"495 Flatbush Ave, Hartford, CT 06106",57
+148,3.8,3105,"200 Dutch Meadows Ln, Glenville, NY 12302",58
+149,4.0,2350,"155 Parkway N, Waterford, CT 06385",59
+150,3.8,3646,"2000 Clements Bridge Rd Ste 100, Deptford, NJ 08096",60
+151,4.1,1972,"516 School House Rd, Kennett Square, PA 19348",61
+152,4.0,4964,"21151 S Dixie Hwy, Miami, FL 33189",62
+153,3.8,3724,"275 N Gulph Rd, King of Prussia, PA 19406",63
+154,3.6,4769,"33752 Vine St, Willowick, OH 44095",64
+155,4.3,12450,"2100 88th St, North Bergen, NJ 07047",65
+156,3.9,2296,"580 U.S. 9, Lanoka Harbor, NJ 08734",66
+157,4.0,3417,"550 Providence Hwy, Walpole, MA 02081",67
+158,3.8,2754,"3520 Hudson Dr, Stow, OH 44224",68
+159,3.8,2754,"3520 Hudson Dr, Stow, OH 44224",69
+160,3.9,3564,"7 Dowling Village Blvd, North Smithfield, RI 02896",70
+161,4.1,3238,"5571 W Hillsboro Blvd, Coconut Creek, FL 33073",71
+162,4.0,4303,"10855 So. Us Hwy #1 #1, Port St. Lucie, FL 34952",72
+163,3.9,3248,"11900 Atlantic Blvd, Jacksonville, FL 32225",73
+164,4.2,8433,"301 S State Rd 7, Hollywood, FL 33023",74
+165,3.9,3732,"2010 Kildaire Farm Rd, Cary, NC 27518",75
+166,4.3,10268,"9300 NW 77th Ave, Miami Lakes, FL 33016",76
+167,4.0,2129,"300 Colony Pl Rd, Plymouth, MA 02360",77
+168,3.9,2988,"10048 Charlotte Hwy, Indian Land, SC 29707",78
+169,3.9,3571,"35901 Chester Rd, Avon, OH 44011",79
+170,4.0,1493,"441 Commerce Dr, Victor, NY 14564",80
+171,3.9,3004,"169 Norman Station Blvd, Mooresville, NC 28117",81
+172,4.1,3376,"650 Centre of New England Blvd, Coventry, RI 02816",82
+173,3.8,4441,"1500 E Merritt Island Causeway, Merritt Island, FL 32952",83
+174,3.6,6045,"1868 Warrensville Center Rd, South Euclid, OH 44121",84
+175,3.9,3251,"10050 Glenwood Ave, Raleigh, NC 27617",85
+176,3.9,3496,"8303 W Ridgewood Dr, Parma, OH 44129",86
+177,4.0,3751,"899 Blanding Blvd, Orange Park, FL 32065",87
+178,3.9,4850,"845 Palm Bay Rd NE, West Melbourne, FL 32904",88
+179,4.1,2061,"5810 Ranch Lake Blvd, Bradenton, FL 34202",89
+0,3.9,4426,"3200 Old Boynton Road, Boynton Beach, FL 33436",90
+1,4.0,5215,"5734 S Orange Blossom Trl, Orlando, FL 32839",91
+2,4.0,1061,"2320 No, Hanover Pike, Hampstead, MD 21074",92
+3,4.0,5105,"1601 Rinehart Rd, Sanford, FL 32771",93
+4,4.1,4343,"5825 Thunder Rd NW, Concord, NC 28027",94
+5,4.1,7509,"11250 E Colonial Dr, Orlando, FL 32817",95
+6,3.8,3583,"7430 Bell Creek Rd, Mechanicsville, VA 23111",96
+7,3.9,4576,"1750 Nottingham Way, Hamilton Township, NJ 08619",97
+8,3.8,2981,"5033 Transit Rd, Williamsville, NY 14221",98
+9,4.0,2333,"1500 Market Pl Blvd, Cumming, GA 30041",99
+10,4.0,2966,"6435 Bells Ferry Rd, Woodstock, GA 30189",100
+11,3.8,3270,"1025 GA-34 E, Newnan, GA 30265",101
+12,3.8,3648,"1436 Dogwood Dr SE, Conyers, GA 30013",102
+13,3.8,4394,"4500 Fayetteville Rd, Raleigh, NC 27603",103
+14,3.8,4529,"1105 Research Center Drive Atlanta SW Sw, Atlanta, GA 30331",104
+15,4.0,2757,"265 NJ-73, West Berlin, NJ 08091",105
+16,4.1,8999,"1471 E Osceola Pkwy, Kissimmee, FL 34744",106
+17,4.0,3763,"1070 W Landis Ave, Vineland, NJ 08360",107
+18,4.1,1760,"160 Broadway, Raynham, MA 02767",108
+19,3.8,9892,"1675 S Christopher Columbus Blvd, Philadelphia, PA 19148",109
+20,3.7,2523,"299 Valley Gate Dr, Warrington, PA 18976",110
+21,3.8,5259,"1200 Marketplace Dr, Rochester, NY 14623",111
+22,3.8,5373,"545 Pine Island Rd, North Fort Myers, FL 33903",112
+23,4.0,6608,"33501 S Dixie Hwy, Florida City, FL 33034",113
+24,4.1,4437,"10251 Shops Ln, Jacksonville, FL 32258",114
+25,4.0,3880,"844 N Colony Rd, Wallingford, CT 06492",115
+26,4.3,7127,"5851 NW 177th St, Hialeah, FL 33015",116
+27,3.9,3280,"8000 Town Dr, Raleigh, NC 27616",117
+28,4.3,7994,"15885 SW 88th St, Kendall, FL 33196",118
+29,3.7,4911,"1170 N Military Hwy, Norfolk, VA 23502",119
+30,3.9,7269,"2300 W Atlantic Blvd, Pompano Beach, FL 33069",120
+31,4.1,3693,"19910 Bruce B Downs Blvd, Tampa, FL 33647",121
+32,3.7,4179,"420 Buckland Hills Dr, Manchester, CT 06042",122
+33,3.9,3288,"2150 Chili Ave, Rochester, NY 14624",123
+34,3.7,4450,"1900 Cunningham Dr, Hampton, VA 23666",124
+35,4.1,5002,"6192 Gunn Hwy, Tampa, FL 33625",125
+36,3.7,6124,"4770 Colonial Blvd, Fort Myers, FL 33966",126
+37,4.3,1492,"631 U.S. 9 S, Little Egg Harbor Township, NJ 08087",127
+38,4.0,5536,"500 Bayonne Crossing Way, Bayonne, NJ 07002",128
+39,4.0,2315,"4 College Park Ln, Georgetown, DE 19947",129
+40,4.0,1855,"1504 N Parham Rd, Richmond, VA 23229",130
+41,3.9,4758,"1450 Johns Lake Rd, Clermont, FL 34711",131
+42,3.7,3114,"650 S Trooper Rd, Norristown, PA 19403",132
+43,4.0,3421,"161 Berlin Rd, Cromwell, CT 06416",133
+44,3.7,6032,"99 H St NW, Washington, DC 20001",134
+45,4.1,3812,"1776 Plainfield Pike, Cranston, RI 02921",135
+46,3.9,4367,"979 US-1, North Brunswick Township, NJ 08902",136
+47,4.1,2770,"200 Otis St, Northborough, MA 01532",137
+48,3.8,6794,"3290 Sheridan Dr, Amherst, NY 14226",138
+49,3.9,5345,"1550 Skibo Rd, Fayetteville, NC 28303",139
+50,4.0,1595,"54 Cousineau Dr, Swansea, MA 02777",140
+51,3.8,3811,"4807 Valley View Blvd NW, Roanoke, VA 24012",141
+52,4.0,4109,"725 Gold St, Manchester, NH 03103",142
+53,4.0,5749,"23106 US Hwy 19 N, Clearwater, FL 33765",143
+54,3.9,1106,"43 Stephenville St, Massena, NY 13662",144
+55,3.8,2345,"1869 Plaza Dr, Olean, NY 14760",145
+56,3.7,2054,"5054 NY-23, Oneonta, NY 13820",146
+57,4.1,1131,"1031 Ten Rod Rd, North Kingstown, RI 02852",147
+58,3.9,1554,"724 Brattleboro Rd, Hinsdale, NH 03451",148
+59,4.0,1637,"152 NJ-31 N, Flemington, NJ 08822",149
+60,3.9,2024,"33 Sherwood Dr, Tilton, NH 03276",150
+61,3.6,2877,"100 Mt Auburn Ave, Auburn, ME 04210",151
+62,3.9,2466,"4133 Veterans Memorial Dr, Batavia, NY 14020",152
+63,3.6,2184,"297 Grant Ave, Auburn, NY 13021",153
+64,4.0,2076,"474 Boston Post Rd, North Windham, CT 06256",154
+65,3.7,2857,"45485 Miramar Way, California, MD 20619",155
+66,3.8,4926,"355 Lincoln Ave, East Stroudsburg, PA 18301",156
+67,3.8,1852,"14 Bowen St, Claremont, NH 03743",157
+68,4.0,1917,"15 Tobey Rd, Wareham, MA 02571",158
+69,4.2,1517,"610 Legion Rd, Denton, MD 21629",159
+70,3.9,2908,"195 N West End Blvd, Quakertown, PA 18951",160
+71,4.2,3356,"1500 B Cornerside Blvd, Vienna, VA 22182",161
+72,3.7,2293,"135 Fairgrounds Memorial Pkwy, Ithaca, NY 14850",162
+73,4.1,1282,"1415 Curran Memorial Hwy, North Adams, MA 01247",163
+74,3.8,3694,"3141 Garden Rd, Burlington, NC 27215",164
+75,4.1,1356,"6530 Trading Square, Haymarket, VA 20169",165
+76,3.9,4424,"1590 Dunlawton Ave, Port Orange, FL 32127",166
+77,4.0,3331,"5555 W Atlantic Blvd, Margate, FL 33063",167
+78,3.6,2859,"1730 Lincoln Way E, Chambersburg, PA 17202",168
+79,3.7,2901,"1515 Bethlehem Pike, Hatfield, PA 19440",169
+80,4.1,13363,"150 Harrison Ave, Kearny, NJ 07032",170
+81,4.0,3240,"4900 U.S. 9, Howell Township, NJ 07731",171
+82,3.9,3893,"900 Stillwater Ave, Bangor, ME 04401",172
+83,3.6,4956,"6420 Petrie Way Rd, Baltimore, MD 21237",173
+84,3.7,4161,"1317 N Main St Ste A1, Summerville, SC 29483",174
+85,3.9,5066,"2650 Creighton Rd, Pensacola, FL 32504",175
+86,3.6,6100,"29176 Van Dyke Ave, Warren, MI 48093",176
+87,3.8,5838,"14900 Dix Toledo Rd, Southgate, MI 48195",177
+88,3.8,4738,"45400 Marketplace Blvd, Chesterfield Township, MI 48051",178
+89,3.8,3869,"1201 NY-300, Newburgh, NY 12550",179
+90,4.1,2024,"700 Lafayette Rd, Seabrook, NH 03874",180

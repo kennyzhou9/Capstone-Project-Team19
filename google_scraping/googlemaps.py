@@ -87,7 +87,8 @@ class GoogleMapsScraper:
 
         # parse reviews
         response = BeautifulSoup(self.driver.page_source, 'html.parser')
-        rblock = response.find_all('div', class_='section-review-content')
+        # rblock = response.find_all('div', class_='section-review-content')
+        rblock = response.find_all('div', class_='ODSEW-ShBeI NIyLF-haAclf gm2-body-2')
         parsed_reviews = []
         for index, review in enumerate(rblock):
             if index >= offset:
@@ -117,7 +118,8 @@ class GoogleMapsScraper:
 
         resp = BeautifulSoup(self.driver.page_source, 'html.parser')
 
-        address = self.__get_address(resp)
+       # address = self.__get_address(resp)
+        address = self.driver.find_element_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[9]/div[1]/button/div[1]/div[2]/div[1]').text
 
         return address
 
@@ -143,18 +145,26 @@ class GoogleMapsScraper:
         
         item = {}
 
-        id_review = review.find('button', class_='section-review-action-menu')['data-review-id']
-        username = review.find('div', class_='section-review-title').find('span').text
+        # id_review = review.find('button', class_='section-review-action-menu')['data-review-id']
+        # username = review.find('div', class_='section-review-title').find('span').text
+        id_review = review.findChild("div")['data-review-id']
+        username = review.find('div', class_='ODSEW-ShBeI-title').find('span').text
+
         try:
-            review_text = self.__filter_string(review.find('span', class_='section-review-text').text)
+            # review_text = self.__filter_string(review.find('span', class_='section-review-text').text)
+            review_text = self.__filter_string(review.find('span', class_='ODSEW-ShBeI-text').text)
         except Exception as e:
             review_text = None
 
-        rating = float(review.find('span', class_='section-review-stars')['aria-label'].split(' ')[1])
-        relative_date = review.find('span', class_='section-review-publish-date').text
+        # rating = float(review.find('span', class_='section-review-stars')['aria-label'].split(' ')[1])
+        # relative_date = review.find('span', class_='section-review-publish-date').text
+        rating = float(review.find('span', class_='ODSEW-ShBeI-H1e3jb')['aria-label'].split(' ')[1])
+        relative_date = review.find('span', class_='ODSEW-ShBeI-RgZmSc-date').text
+
 
         try:
-            n_reviews_photos = review.find('div', class_='section-review-subtitle').find_all('span')[1].text
+            # n_reviews_photos = review.find('div', class_='section-review-subtitle').find_all('span')[1].text
+            n_reviews_photos = review.find('div', class_='ODSEW-ShBeI-subtitle').find_all('span')[1].text
             metadata = n_reviews_photos.split('\xe3\x83\xbb')
             if len(metadata) == 3:
                 n_photos = int(metadata[2].split(' ')[0].replace('.', ''))
@@ -207,7 +217,8 @@ class GoogleMapsScraper:
     # expand review description
     def __expand_reviews(self):
         # use XPath to load complete reviews
-        links = self.driver.find_elements_by_xpath('//button[@class=\'section-expand-review blue-link\']')
+        # links = self.driver.find_elements_by_xpath('//button[@class=\'section-expand-review blue-link\']')
+        links = self.driver.find_elements_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[2]/div[9]/div[19]/div/div[3]/div[3]/jsl/button')
         for l in links:
             l.click()
         time.sleep(12)
@@ -218,7 +229,8 @@ class GoogleMapsScraper:
         #allxGeDnJMl__text gm2-button-alt
         #<button ved="1i:1,t:18519,e:0,p:kPkcYIz-Dtql-QaL1YawDw:1969" jstcache="1202" jsaction="pane.reviewChart.moreReviews" class="gm2-button-alt jqnFjrOWMVU__button-blue" jsan="7.gm2-button-alt,7.jqnFjrOWMVU__button-blue,0.ved,22.jsaction">14 reviews</button>
         #<button aria-label="14 reviews" vet="3648" jsaction="pane.rating.moreReviews" jstcache="1010" class="widget-pane-link" jsan="7.widget-pane-link,0.aria-label,0.vet,0.jsaction">14 reviews</button>
-        links = self.driver.find_elements_by_xpath('//button[@jsaction=\'pane.reviewChart.moreReviews\']')
+        # links = self.driver.find_elements_by_xpath('//button[@jsaction=\'pane.reviewChart.moreReviews\']')
+        links = self.driver.find_elements_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[53]/div/div/button/span')
         print('LINKS HERE', links)
         for l in links:
             l.click()
@@ -226,8 +238,10 @@ class GoogleMapsScraper:
 
 
     def __scroll(self):
-        scrollable_div = self.driver.find_element_by_css_selector('div.section-layout.section-scrollbox.mapsConsumerUiCommonScrollable__scrollable-y.mapsConsumerUiCommonScrollable__scrollable-show')
+        # scrollable_div = self.driver.find_element_by_css_selector('div.section-layout.section-scrollbox.mapsConsumerUiCommonScrollable__scrollable-y.mapsConsumerUiCommonScrollable__scrollable-show')
+        scrollable_div = self.driver.find_element_by_css_selector('div.section-layout.section-scrollbox.cYB2Ge-oHo7ed')
         self.driver.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', scrollable_div)
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
     def __get_logger(self):
         # create logger
